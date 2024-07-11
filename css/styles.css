@@ -47,7 +47,6 @@ p,h1,h2,h3,h4,h5,h6 {
     display: flex;
     align-items: center;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    color: #404bbf;
 }
 
 .logo {
@@ -74,7 +73,6 @@ p,h1,h2,h3,h4,h5,h6 {
 .navigation-menu-list {
     margin: 0 auto;
     padding-left: 80;
-
 }
 
 .navigation-list {
@@ -97,6 +95,9 @@ p,h1,h2,h3,h4,h5,h6 {
     padding-bottom: 24px;
     position: relative;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.header-menu-studio{
+    color: #404bbf
 }
 
 .header-menu-item-link:hover,
