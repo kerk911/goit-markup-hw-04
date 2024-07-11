@@ -72,11 +72,15 @@ p,h1,h2,h3,h4,h5,h6 {
 .navigation-menu-list {
     margin: 0 auto;
     padding-left: 80;
+
 }
 
 .navigation-list {
     display: flex;
     gap: 40px;
+    position: relative;
+        color: #404bbf;
+        transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .navigation-menu-list:hover,
@@ -92,7 +96,7 @@ p,h1,h2,h3,h4,h5,h6 {
     color: #2e2f42;
     padding-top: 24px;
     padding-bottom: 24px;
-    position: sticky;
+
 }
 
 .header-menu-item-link:hover,
@@ -117,7 +121,8 @@ p,h1,h2,h3,h4,h5,h6 {
 
 .header-adress-list{
     display: flex;
-    gap: 40px;    
+    gap: 40px;   
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-adress-link {
