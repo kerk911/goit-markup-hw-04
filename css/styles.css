@@ -33,7 +33,9 @@ p,h1,h2,h3,h4,h5,h6 {
 .header {
     padding-top: 24px;
     padding-bottom: 24px;
-    border-bottom: 1px solid #e7e9fc
+    border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
+    background: #fff;
 }
 
 .header-container {
@@ -90,12 +92,23 @@ p,h1,h2,h3,h4,h5,h6 {
     color: #2e2f42;
     padding-top: 24px;
     padding-bottom: 24px;
+    position: sticky;
 }
 
 .header-menu-item-link:hover,
 .header-menu-item-link:focus {
     color: #404bbf
 }
+.header-menu-studio::after {
+    content: ''; 
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    border-radius: 2px;
+    width: 48px;
+    height: 4px;
+    background: #404bbf;
+} 
 
 .header-adress {
     font-style: normal;
@@ -130,7 +143,11 @@ p,h1,h2,h3,h4,h5,h6 {
 .main-section {
     padding-top: 188px;
     padding-bottom: 188px;
-    background-color: #2e2f42;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/office.jpg);
+    background-repeat: no-repeat;
+    background-position: center     ;
+    background-size: cover;
+
 }
 
 .main-header {
@@ -190,6 +207,17 @@ p,h1,h2,h3,h4,h5,h6 {
 
 .about-item-box {
     width: calc((100% - 72px) / 4);
+}
+
+.about-icon {
+    fill: #2E2F42;
+    padding: 24px 100px;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    background: #f4f4fd;
+    margin-bottom: 8px;
 }
 
 .team-list {
@@ -283,6 +311,27 @@ p,h1,h2,h3,h4,h5,h6 {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+.team-soc {
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 24px;
+    width: 232px;
+    height: 40px;
+
+}
+
+.team-soc-link {
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4,0,0.2,1);
+
+}
+.team-icon {
+    width: 40px;
+    height: 40px;
 }
 
 .portfolio {
