@@ -472,7 +472,6 @@ p,h1,h2,h3,h4,h5,h6 {
     text-transform: uppercase;
     color: #4d5ae5;
     margin-bottom: 16px;
-
 }
 
 .footer-logo-color {
@@ -487,4 +486,22 @@ p,h1,h2,h3,h4,h5,h6 {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+}
+
+.footer-container{
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-box {
+    margin-right: 120px
+}
+
+.footer-soc-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#FFFFFF;
+    margin-bottom: 16px;
 }
