@@ -352,15 +352,15 @@ p,h1,h2,h3,h4,h5,h6 {
     transition-timing-function: cubic-bezier(0.4,0,0.2,1);
 }
 
-.team-soc-link-icon :hover,
-.team-soc-link-icon :focus {
-    background-color: #404bbf;
-}
-
 .team-icon {
     fill: #f4f4fd;
     width: 40px;
     height: 40px;
+}
+
+.team-soc-list:hover,
+.team-soc-list:focus {
+    background-color: #404bbf;
 }
 
 .portfolio {
