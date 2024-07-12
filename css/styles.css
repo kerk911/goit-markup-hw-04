@@ -352,8 +352,8 @@ p,h1,h2,h3,h4,h5,h6 {
     transition-timing-function: cubic-bezier(0.4,0,0.2,1);
 }
 
-.team-soc-link :hover,
-.team-soc-link :focus {
+.team-soc-link-icon :hover,
+.team-soc-link-icon :focus {
     background-color: #404bbf;
 }
 
