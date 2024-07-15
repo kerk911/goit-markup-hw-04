@@ -355,12 +355,12 @@ p,h1,h2,h3,h4,h5,h6 {
     transition-timing-function: cubic-bezier(0.4,0,0.2,1);
 }
 
-.team-soc-link-icon{
-    fill: #31d0aa;
+.team-icon{
+    fill: #F4F4FD;
 }
 
-.team-soc-link-icon:hover,
-.team-soc-link-icon:focus {
+.team-soc-link:hover,
+.team-soc-link:focus {
     background-color: #404bbf;
 }
 
@@ -529,10 +529,10 @@ p,h1,h2,h3,h4,h5,h6 {
 }
 
 .footer-icon {
-    fill:#31d0aa
+    fill:#F4F4FD
 }
 
-.footer-icon:hover,
-.footer-icon:focus {
+.footer-link:hover,
+.footer-link:focus {
     background-color: #31d0aa;
 }
